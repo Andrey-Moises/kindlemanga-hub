@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KindleManga Hub
 
-## Getting Started
+Una aplicación web construida con Next.js para gestionar y organizar manga optimizado para dispositivos Kindle.
 
-First, run the development server:
+## 🚀 Características
 
+- **Interfaz moderna**: Desarrollada con React 19 y Next.js 15
+- **Diseño responsivo**: Estilizada con Tailwind CSS 4
+- **Rendimiento optimizado**: Utiliza Turbopack para desarrollo rápido
+- **Código limpio**: Configuración de ESLint y Husky para mantener calidad del código
+- **TypeScript**: Tipado estático para mayor robustez
+
+## 🛠️ Tecnologías
+
+- **Framework**: Next.js 15.3.5
+- **React**: 19.0.0
+- **Styling**: Tailwind CSS 4
+- **Lenguaje**: TypeScript 5
+- **Linting**: ESLint 9
+- **Git Hooks**: Husky 9.1.7
+
+## 📦 Instalación
+
+1. Clona el repositorio:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <url-del-repositorio>
+cd kindlemanga-hub
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## Learn More
+## 🔧 Scripts Disponibles
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Inicia el servidor de desarrollo con Turbopack
+- `npm run build` - Construye la aplicación para producción
+- `npm run start` - Inicia el servidor de producción
+- `npm run lint` - Ejecuta ESLint para revisar el código
+- `npm run prepare` - Configura Husky para git hooks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Estructura del Proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+kindlemanga-hub/
+├── pages/          # Páginas de Next.js
+├── components/     # Componentes React reutilizables
+├── styles/         # Archivos de estilo
+├── public/         # Archivos estáticos
+├── types/          # Definiciones de tipos TypeScript
+└── utils/          # Funciones utilitarias
+```
 
-## Deploy on Vercel
+## 🔨 Desarrollo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Esta aplicación está configurada con:
+- **Turbopack**: Para un desarrollo más rápido
+- **ESLint**: Para mantener la calidad del código
+- **Husky**: Para ejecutar validaciones antes de los commits
+- **TypeScript**: Para tipado estático
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Uso
+
+KindleManga Hub está diseñado para organizar y gestionar colecciones de manga optimizadas para lectura en dispositivos Kindle. La aplicación ofrece una interfaz intuitiva para navegar, buscar y administrar tu biblioteca de manga.
+
+## 🤝 Contribución
+
+1. Haz fork del proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto es privado y no está disponible bajo ninguna licencia pública.
+
+## 🐛 Reportar Problemas
+
+Si encuentras algún problema o tienes sugerencias, por favor abre un issue en el repositorio.
+
+---
+
+**Versión actual**: 0.1.0
